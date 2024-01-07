@@ -1,0 +1,77 @@
+/**
+* Set colors
+*/
+
+:root {
+  --clr-orange: 25, 97%, 53%;
+  --clr-white: 0, 0%, 100%;
+  --clr-light-grey: 217, 12%, 63%;
+  --clr-medium-grey: 216, 12%, 54%;
+  --clr-dark-blue: 213, 19%, 18%;
+  --clr-very-dark-blue: 216, 12%, 8%;
+}
+
+.text-orange {
+  color: hsl(var(--clr-orange));
+}
+
+.text-white {
+  color: hsl(var(--clr-white));
+}
+
+.text-light-grey {
+  color: hsl(var(--clr-light-grey));
+}
+
+.text-medium-grey {
+  color: hsl(var(--clr-medium-grey));
+}
+
+.text-dark-blue {
+  color: hsl(var(--clr-dark-blue));
+}
+
+.text-very-dark-blue {
+  color: hsl(var(--clr-very-dark-blue));
+}
+
+/* --------------------------------- */
+
+.bg-orange {
+  background-color: hsl(var(--clr-orange));
+}
+
+.bg-white {
+  background-color: hsl(var(--clr-white));
+}
+
+.bg-light-grey {
+  background-color: hsl(var(--clr-light-grey));
+}
+
+.bg-medium-grey {
+  background-color: hsl(var(--clr-medium-grey));
+}
+
+.bg-dark-blue {
+  background-color: hsl(var(--clr-dark-blue));
+}
+
+.bg-very-dark-blue {
+  background-color: hsl(var(--clr-very-dark-blue));
+}
+
+.btn-rating:hover {
+  background-color: hsl(var(--clr-orange));
+  color: hsl(var(--clr-white));
+}
+
+.btn-rating.active {
+  background-color: hsl(var(--clr-light-grey));
+  color: hsl(var(--clr-white));
+}
+
+.btn-submit:hover {
+  background-color: hsl(var(--clr-white));
+  color: hsl(var(--clr-orange));
+}
