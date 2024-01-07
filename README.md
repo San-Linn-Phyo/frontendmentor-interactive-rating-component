@@ -2,7 +2,7 @@
 
 #### Lighthouse Score
 
-![Score](/public/images/Screenshot%202024-01-07%20200041.png)
+![Score](/public/images/lighthouse.png)
 
 #### Technologies
 

@@ -91,7 +91,7 @@ const App = () => {
   }
 
   return (
-    <>
+    <main>
       <div className="h-screen bg-very-dark-blue flex justify-center items-center p-4">
         <div className="bg-dark-blue text-medium-grey p-6 rounded-xl max-w-[23rem]">
           {!submitted && (
@@ -113,10 +113,7 @@ const App = () => {
                 feedback is appreciated to help us improve our offering!
               </p>
 
-              <div
-                className="flex justify-between items-center gap-5"
-                aria-description="Rating values"
-              >
+              <div className="flex justify-between items-center gap-5">
                 {rating.map(item => (
                   <button
                     type="button"
@@ -126,7 +123,6 @@ const App = () => {
                       item.active && 'active'
                     )}
                     onClick={() => onRate(item.id)}
-                    aria-description={`Rating value ${item.value}`}
                   >
                     {item.value}
                     <span className="w-full h-full absolute top-0 left-0 bg-medium-grey rounded-full z-0 opacity-20" />
@@ -149,8 +145,7 @@ const App = () => {
                 src="/images/illustration-thank-you.svg"
                 alt="Thanks for submitting"
                 className="inline-block
-                mt-4 mb-8
-                "
+                mt-4 mb-8"
               />
 
               <div className="inline-block text-orange relative py-1 px-3 mb-8">
@@ -169,7 +164,7 @@ const App = () => {
       </div>
 
       <Toaster />
-    </>
+    </main>
   )
 }
 
